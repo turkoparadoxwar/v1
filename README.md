@@ -113,13 +113,6 @@ npm run test:browser
 
 `TEST_URL` selects a different preview address. The browser suite tests desktop, tablet, 390 px and 320 px mobile layouts; visible events; internal links; keyboard skip/contents behavior; no-JavaScript reading; print inclusion; and automated accessibility. Screenshots and reports are written to ignored `artifacts/`.
 
-To target a repository-path production preview in PowerShell:
-
-```powershell
-$env:TEST_URL = 'http://127.0.0.1:4322/YOUR-REPOSITORY/'
-npm run test:browser
-```
-
 `scripts/performance-check.mjs` measures a cold-cache mobile lab sample at the same `TEST_URL`: 390 × 844, DPR 2, 4 Mbps download, 100 ms latency, and 4× CPU slowdown. Lab results are diagnostic, not a guarantee of real-user or hosted performance.
 
 ## Current limits
