@@ -1,0 +1,480 @@
+[
+  {
+    "id": "moderation-appeal",
+    "title": "Moderation appeal and original conversation",
+    "status": "available",
+    "url": "https://www.odatv.com/guncel/yasaklanan-turk-oyuncu-odatvye-konustu-120163953",
+    "links": [
+      {
+        "label": "Odatv — Interview with the banned Turkish player",
+        "url": "https://www.odatv.com/guncel/yasaklanan-turk-oyuncu-odatvye-konustu-120163953"
+      },
+      {
+        "label": "Reddit — Regarding the Anti-Turkish Censorship",
+        "url": "https://www.reddit.com/r/paradoxplaza/comments/1wo971a/regarding_the_antiturkish_censorship/"
+      }
+    ],
+    "locations": [
+      {
+        "chapter": "origins",
+        "block": 0
+      },
+      {
+        "chapter": "origins",
+        "block": 1
+      },
+      {
+        "chapter": "origins",
+        "block": 2
+      },
+      {
+        "chapter": "origins",
+        "block": 3
+      },
+      {
+        "chapter": "origins",
+        "block": 5
+      }
+    ]
+  },
+  {
+    "id": "historical-reference",
+    "title": "Fatma Ülgen reference cited in the article",
+    "status": "available",
+    "url": "https://escholarship.org/uc/item/2mh3z3k6",
+    "links": [
+      {
+        "label": "eScholarship — Fatma Ülgen reference",
+        "url": "https://escholarship.org/uc/item/2mh3z3k6"
+      }
+    ],
+    "locations": [
+      {
+        "chapter": "origins",
+        "block": 4
+      }
+    ]
+  },
+  {
+    "id": "community-mobilization",
+    "title": "Community reports, support campaign, and Discord bans",
+    "status": "available",
+    "url": "https://www.odatv.com/guncel/paradoxtan-ataturk-skandali-hearts-of-ironin-discord-sunucusunda-boykot-120163837",
+    "links": [
+      {
+        "label": "Odatv — Atatürk controversy and Discord boycott",
+        "url": "https://www.odatv.com/guncel/paradoxtan-ataturk-skandali-hearts-of-ironin-discord-sunucusunda-boykot-120163837"
+      },
+      {
+        "label": "Odatv — Interview with the banned Turkish player",
+        "url": "https://www.odatv.com/guncel/yasaklanan-turk-oyuncu-odatvye-konustu-120163953"
+      }
+    ],
+    "locations": [
+      {
+        "chapter": "mobilization",
+        "block": 0
+      },
+      {
+        "chapter": "mobilization",
+        "block": 1
+      },
+      {
+        "chapter": "mobilization",
+        "block": 2
+      },
+      {
+        "chapter": "mobilization",
+        "block": 3
+      }
+    ]
+  },
+  {
+    "id": "creator-interventions",
+    "title": "Creator interventions and the Three Demands",
+    "status": "available",
+    "url": "https://steamcommunity.com/app/394360/discussions/0/592942202593820587/",
+    "links": [
+      {
+        "label": "Steam Community — Review controversy discussion",
+        "url": "https://steamcommunity.com/app/394360/discussions/0/592942202593820587/"
+      },
+      {
+        "label": "Odatv — Interview with the banned Turkish player",
+        "url": "https://www.odatv.com/guncel/yasaklanan-turk-oyuncu-odatvye-konustu-120163953"
+      }
+    ],
+    "locations": [
+      {
+        "chapter": "mobilization",
+        "block": 4
+      },
+      {
+        "chapter": "mobilization",
+        "block": 5
+      },
+      {
+        "chapter": "mobilization",
+        "block": 6
+      },
+      {
+        "chapter": "mobilization",
+        "block": 7
+      },
+      {
+        "chapter": "mobilization",
+        "block": 8
+      }
+    ]
+  },
+  {
+    "id": "historian-boycott",
+    "title": "Emrah Safa Gürkan boycott statement",
+    "status": "available",
+    "url": "https://www.sozcu.com.tr/amp/dunyaca-unlu-oyundan-ataturk-saygisizligi-tarihci-emrah-safa-gurkan-da-tepki-gosterdi-p363014",
+    "links": [
+      {
+        "label": "Sözcü — Emrah Safa Gürkan’s response",
+        "url": "https://www.sozcu.com.tr/amp/dunyaca-unlu-oyundan-ataturk-saygisizligi-tarihci-emrah-safa-gurkan-da-tepki-gosterdi-p363014"
+      }
+    ],
+    "locations": [
+      {
+        "chapter": "historian",
+        "block": 0
+      },
+      {
+        "chapter": "historian",
+        "block": 1
+      },
+      {
+        "chapter": "historian",
+        "block": 2
+      }
+    ]
+  },
+  {
+    "id": "steam-snapshot",
+    "title": "25 September Steam review snapshot and wider reactions",
+    "status": "available",
+    "url": "https://www.oyungunlugu.com/oyun-dosyalari/paradox-interactivein-ataturk-krizinde-tum-gelismeler",
+    "links": [
+      {
+        "label": "Oyun Günlüğü — Developments in the Atatürk controversy",
+        "url": "https://www.oyungunlugu.com/oyun-dosyalari/paradox-interactivein-ataturk-krizinde-tum-gelismeler"
+      },
+      {
+        "label": "Strategy and Wargaming — Review-bombing coverage",
+        "url": "https://strategyandwargaming.com/2026/09/24/paradox-games-are-being-review-bombed-heres-why-yes-its-politics/"
+      }
+    ],
+    "locations": [
+      {
+        "chapter": "steam-offensive",
+        "block": 0
+      },
+      {
+        "chapter": "steam-offensive",
+        "block": 1
+      },
+      {
+        "chapter": "steam-offensive",
+        "block": 2
+      },
+      {
+        "chapter": "steam-offensive",
+        "block": 3
+      },
+      {
+        "chapter": "steam-offensive",
+        "block": 4
+      }
+    ]
+  },
+  {
+    "id": "tommykay-record",
+    "title": "TommyKay coverage, conversation, and suspension account",
+    "status": "available",
+    "url": "https://www.odatv.com/guncel/yasaklanan-turk-oyuncu-odatvye-konustu-120163953",
+    "links": [
+      {
+        "label": "Odatv — Interview and controversy coverage",
+        "url": "https://www.odatv.com/guncel/yasaklanan-turk-oyuncu-odatvye-konustu-120163953"
+      },
+      {
+        "label": "24vids — OnlyDrama channel",
+        "url": "https://www.24vids.com/channel/onlydramax"
+      },
+      {
+        "label": "Streams Charts — TommyKayLIVE stream history",
+        "url": "https://streamscharts.com/channels/tommykaylive/streams"
+      }
+    ],
+    "locations": [
+      {
+        "chapter": "tommykay",
+        "block": 0
+      },
+      {
+        "chapter": "tommykay",
+        "block": 1
+      },
+      {
+        "chapter": "tommykay",
+        "block": 2
+      },
+      {
+        "chapter": "tommykay",
+        "block": 3
+      }
+    ]
+  },
+  {
+    "id": "paradox-first",
+    "title": "24 September Paradox statement",
+    "status": "available",
+    "url": "https://www.reddit.com/r/paradoxplaza/comments/1woxpx4/paradox_comment_on_the_official_hoi4_discord/",
+    "links": [
+      {
+        "label": "Reddit — Paradox’s first Discord statement",
+        "url": "https://www.reddit.com/r/paradoxplaza/comments/1woxpx4/paradox_comment_on_the_official_hoi4_discord/"
+      }
+    ],
+    "locations": [
+      {
+        "chapter": "first-response",
+        "block": 0
+      },
+      {
+        "chapter": "first-response",
+        "block": 1
+      },
+      {
+        "chapter": "first-response",
+        "block": 2
+      },
+      {
+        "chapter": "first-response",
+        "block": 3
+      },
+      {
+        "chapter": "first-response",
+        "block": 4
+      }
+    ]
+  },
+  {
+    "id": "paradox-second",
+    "title": "25 September Paradox statement and revised Rule 4",
+    "status": "available",
+    "url": "https://www.reddit.com/r/paradoxplaza/comments/1wq014a/paradox_announces_new_rule_for_official_hoi4/",
+    "links": [
+      {
+        "label": "Reddit — Paradox’s revised Discord rule",
+        "url": "https://www.reddit.com/r/paradoxplaza/comments/1wq014a/paradox_announces_new_rule_for_official_hoi4/"
+      }
+    ],
+    "locations": [
+      {
+        "chapter": "second-response",
+        "block": 0
+      },
+      {
+        "chapter": "second-response",
+        "block": 1
+      },
+      {
+        "chapter": "second-response",
+        "block": 2
+      },
+      {
+        "chapter": "second-response",
+        "block": 3
+      },
+      {
+        "chapter": "second-response",
+        "block": 4
+      },
+      {
+        "chapter": "second-response",
+        "block": 5
+      },
+      {
+        "chapter": "second-response",
+        "block": 6
+      },
+      {
+        "chapter": "second-response",
+        "block": 7
+      },
+      {
+        "chapter": "second-response",
+        "block": 8
+      },
+      {
+        "chapter": "second-response",
+        "block": 9
+      },
+      {
+        "chapter": "second-response",
+        "block": 10
+      },
+      {
+        "chapter": "second-response",
+        "block": 11
+      }
+    ]
+  },
+  {
+    "id": "playrion-incident",
+    "title": "Playrion incident report and ownership/sale timing",
+    "status": "available",
+    "url": "https://www.reddit.com/r/AirlinesManagerTycoon/comments/1wq0pdh/hacked_by_turks/",
+    "links": [
+      {
+        "label": "Reddit — “Hacked by Turks” incident report",
+        "url": "https://www.reddit.com/r/AirlinesManagerTycoon/comments/1wq0pdh/hacked_by_turks/"
+      },
+      {
+        "label": "Paradox Interactive — Playrion sale announcement",
+        "url": "https://www.paradoxinteractive.com/media/press-releases/paradox-interactive/paradox-interactive-sells-playrion-to-trophy-games"
+      },
+      {
+        "label": "Paradox Interactive — Playrion acquisition announcement",
+        "url": "https://www.paradoxinteractive.com/media/press-releases/press-release/paradox-interactive-acquires-paris-based-playrion-game-studio"
+      }
+    ],
+    "locations": [
+      {
+        "chapter": "cyber-escalation",
+        "block": 0
+      },
+      {
+        "chapter": "cyber-escalation",
+        "block": 1
+      },
+      {
+        "chapter": "cyber-escalation",
+        "block": 2
+      },
+      {
+        "chapter": "cyber-escalation",
+        "block": 3
+      },
+      {
+        "chapter": "cyber-escalation",
+        "block": 4
+      },
+      {
+        "chapter": "cyber-escalation",
+        "block": 5
+      }
+    ]
+  },
+  {
+    "id": "valve-notice",
+    "title": "Valve off-topic review-activity notice",
+    "status": "available",
+    "url": "https://store.steampowered.com/app/394360/Hearts_of_Iron_IV/",
+    "links": [
+      {
+        "label": "Steam — Hearts of Iron IV store and reviews",
+        "url": "https://store.steampowered.com/app/394360/Hearts_of_Iron_IV/"
+      },
+      {
+        "label": "Steam Blog — Review activity policy background",
+        "url": "https://store.steampowered.com/news/posts/?enddate=1558453683&feed=steam_blog"
+      }
+    ],
+    "locations": [
+      {
+        "chapter": "valve",
+        "block": 0
+      },
+      {
+        "chapter": "valve",
+        "block": 1
+      },
+      {
+        "chapter": "valve",
+        "block": 2
+      }
+    ]
+  },
+  {
+    "id": "neolithic-diary",
+    "title": "[Neolithic]To the End developer diary and in-game portraits",
+    "status": "available",
+    "url": "https://steamdb.info/patchnotes/25530913/",
+    "links": [
+      {
+        "label": "SteamDB — Developer diary #297",
+        "url": "https://steamdb.info/patchnotes/25530913/"
+      },
+      {
+        "label": "ModDB — Developer diary #297",
+        "url": "https://www.moddb.com/games/neolithicto-the-end/news/dd-297-the-councils-arsenal-the-turko-paradox-war"
+      }
+    ],
+    "locations": [
+      {
+        "chapter": "international-support",
+        "block": 0
+      },
+      {
+        "chapter": "international-support",
+        "block": 1
+      },
+      {
+        "chapter": "international-support",
+        "block": 2
+      }
+    ]
+  },
+  {
+    "id": "status-record",
+    "title": "Recorded aftermath and 26 September continuation",
+    "status": "available",
+    "url": "https://www.oyungunlugu.com/oyun-dosyalari/paradox-interactivein-ataturk-krizinde-tum-gelismeler",
+    "links": [
+      {
+        "label": "Oyun Günlüğü — Continuing developments",
+        "url": "https://www.oyungunlugu.com/oyun-dosyalari/paradox-interactivein-ataturk-krizinde-tum-gelismeler"
+      },
+      {
+        "label": "Reddit — Revised Discord rule and community response",
+        "url": "https://www.reddit.com/r/paradoxplaza/comments/1wq014a/paradox_announces_new_rule_for_official_hoi4/"
+      }
+    ],
+    "locations": [
+      {
+        "chapter": "aftermath",
+        "block": 0
+      },
+      {
+        "chapter": "aftermath",
+        "block": 1
+      },
+      {
+        "chapter": "aftermath",
+        "block": 2
+      },
+      {
+        "chapter": "aftermath",
+        "block": 3
+      },
+      {
+        "chapter": "aftermath",
+        "block": 4
+      },
+      {
+        "chapter": "aftermath",
+        "block": 5
+      },
+      {
+        "chapter": "aftermath",
+        "block": 6
+      }
+    ]
+  }
+]

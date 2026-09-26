@@ -1,0 +1,50 @@
+---
+import { getImage } from 'astro:assets';
+import social from '../assets/images/social/og-war.png';
+import { site } from '../lib/content.mjs';
+import '../styles/tokens.css';
+import '../styles/global.css';
+import '../styles/print.css';
+const base=import.meta.env.BASE_URL;
+const asset=(path:string)=>`${base.replace(/\/$/,'')}/${path}`;
+const og=await getImage({src:social,width:1200,height:630,format:'jpg',quality:85});
+const canonical=Astro.site ? new URL(base,Astro.site).href : undefined;
+const ogUrl=Astro.site ? new URL(og.src,Astro.site).href : undefined;
+const publication=process.env.PUBLICATION_DATE||undefined;
+const modified=process.env.MODIFIED_DATE||undefined;
+const byline=process.env.EDITORIAL_BYLINE||undefined;
+const articleMetadata=canonical?{'@context':'https://schema.org','@type':'Article',headline:site.title,description:site.description,inLanguage:'en',url:canonical,image:ogUrl,...(publication?{datePublished:publication}:{}),...(modified?{dateModified:modified}:{}),...(byline?{author:{'@type':'Person',name:byline}}:{})}:undefined;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#101214" />
+    <title>{site.title} — The Unresolved Record</title>
+    <meta name="description" content={site.description} />
+    {canonical && <link rel="canonical" href={canonical} />}
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content={site.title} />
+    <meta property="og:description" content={site.description} />
+    <meta property="og:locale" content="en_US" />
+    {canonical && <meta property="og:url" content={canonical} />}
+    {ogUrl && <><meta property="og:image" content={ogUrl} /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="630" /><meta property="og:image:alt" content="The Turko–Paradox War: the supplied red-and-blue panoramic illustration." /></>}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={site.title} />
+    <meta name="twitter:description" content={site.description} />
+    {ogUrl && <meta name="twitter:image" content={ogUrl} />}
+    {publication && <meta property="article:published_time" content={publication} />}
+    {modified && <meta property="article:modified_time" content={modified} />}
+    {articleMetadata && <script type="application/ld+json" set:html={JSON.stringify(articleMetadata).replaceAll('<','\\u003c')} />}
+    <link rel="icon" href={asset('favicon.svg')} type="image/svg+xml" />
+    <link rel="preload" href={asset('fonts/barlow-condensed-latin-600-normal.woff2')} as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href={asset('fonts/fonts.css')} />
+  </head>
+  <body>
+    <a href="#chronicle" class="skip-link">Skip to the chronicle</a>
+    <slot />
+    <script>import '../scripts/navigation.js';</script>
+  </body>
+</html>

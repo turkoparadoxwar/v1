@@ -1,0 +1,20 @@
+---
+import { people,site } from '../lib/content.mjs';
+---
+<section id="conflict-at-a-glance" class="conflict-panel" aria-labelledby="conflict-title" data-section data-nav-label="Conflict at a glance">
+  <header class="section-top"><span class="eyebrow">THE HISTORICAL RECORD</span><span class="paired-rule" aria-hidden="true"></span></header>
+  <h2 id="conflict-title">Conflict at a glance</h2>
+  <div class="conflict-columns">
+    <dl class="facts">
+      <div><dt>Date</dt><dd>September 2026 <small>Record covers <time datetime="2026-09-21">21</time>–<time datetime="2026-09-26">26 September</time>. No recorded end date.</small></dd></div>
+      <div><dt>Main platforms</dt><dd>HOI4 Discord · Steam · X · Reddit · Twitch · Paradox support<small>Later escalation: Playrion support infrastructure.</small></dd></div>
+      <div><dt>Main parties</dt><dd><span class="party-tag red">Turkish gaming community</span><span class="party-tag blue">Paradox Interactive / HOI4 moderation</span><small>Valve and international communities enter as separate actors.</small></dd></div>
+      <div><dt>Trigger</dt><dd>Restoration of an account was made conditional on removing an Atatürk photograph; the ensuing historical accusation became the central dispute.<small>The original ban concerned spam following an account compromise.</small></dd></div>
+    </dl>
+    <dl class="facts conflict-outcome">
+      <div><dt>Turkish demands</dt><dd><ol>{site.demands.map(d=><li><a href={`#${d.id}`}>{d.ledgerLabel}</a></li>)}</ol></dd></div>
+      <div><dt>Recorded outcome / current status</dt><dd><span class="status-label">UNRESOLVED</span><p>Inconsistent enforcement acknowledged. Discord Rule 4 rewritten. The three demands remain not fully satisfied in the supplied record.</p><small>Article as of 25 September; chronology continues through 26 September.</small></dd></div>
+    </dl>
+  </div>
+  <div class="people-index" id="people"><h3>People in this account</h3><ul>{people.map(p=><li><a href={`#person-${p.id}`}>{p.name}<span aria-hidden="true">↗</span></a></li>)}</ul></div>
+</section>

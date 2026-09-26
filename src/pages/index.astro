@@ -1,0 +1,31 @@
+---
+import ChronicleLayout from '../layouts/ChronicleLayout.astro';
+import Hero from '../components/Hero.astro';
+import NumericalSummary from '../components/NumericalSummary.astro';
+import ConflictPanel from '../components/ConflictPanel.astro';
+import Timeline from '../components/Timeline.astro';
+import ReadingNavigation from '../components/ReadingNavigation.astro';
+import Chapter from '../components/Chapter.astro';
+import AftermathLedger from '../components/AftermathLedger.astro';
+import References from '../components/References.astro';
+import {introduction,narrative} from '../lib/content.mjs';
+---
+<ChronicleLayout>
+  <Hero />
+  <main>
+    <NumericalSummary />
+    <div class="shell orientation">
+      <section id="chronicle" class="introduction" aria-labelledby="introduction-title" data-section data-nav-label="Introduction"><div class="introduction-margin"><span class="eyebrow">THE CHRONICLE</span><span class="intro-date">09<span>/ 2026</span></span><span class="paired-rule" aria-hidden="true"></span></div><div class="intro-reading"><h2 id="introduction-title" class="eyebrow">A COMMUNITY. THREE DEMANDS. AN UNRESOLVED CONFLICT.</h2>{introduction.blocks.map(b=><div class="prose" data-original={b.id} set:html={b.html}/>)}<a class="text-link intro-link" href="#origins">Read the complete account <span aria-hidden="true">↘</span></a></div></section>
+      <ConflictPanel />
+      <Timeline />
+    </div>
+    <div class="reading-layout shell">
+      <ReadingNavigation />
+      <article class="chapters" aria-label="The complete historical narrative">
+        {narrative.map(chapter=><Chapter chapter={chapter}/>)}
+        <AftermathLedger />
+      </article>
+    </div>
+    <References />
+  </main>
+</ChronicleLayout>

@@ -1,0 +1,6 @@
+---
+import { site } from '../lib/content.mjs';
+---
+<section class="numerical-summary shell" aria-label="The conflict in figures">
+  {site.statistics.map(stat=><a href={`#${stat.target}`} class="stat"><span class="stat-value">{stat.metric==='recentReviews'?site.reviewSnapshot.total.toLocaleString('en-US'):stat.metric==='demandCount'?String(site.demands.length):stat.value}</span><span class="stat-label">{stat.label}</span><span class="stat-detail">{stat.detail}</span></a>)}
+</section>

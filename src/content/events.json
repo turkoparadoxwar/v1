@@ -1,0 +1,991 @@
+[
+  {
+    "id": "event-ban-appeal",
+    "order": 1,
+    "start": "2026-09-21",
+    "end": "2026-09-21",
+    "dateLabel": "21 September",
+    "originalLine": "21 September — Yiğit Emre Katran submitted a ban appeal.",
+    "text": "Yiğit Emre Katran submitted a ban appeal.",
+    "language": "en",
+    "provenance": "TURKISH COMMUNITY",
+    "target": "ban-appeal",
+    "sourceIds": [
+      "moderation-appeal"
+    ],
+    "originalTurkish": {
+      "dateLabel": "21 Eylül",
+      "text": "Yiğit Emre Katran ban appeal açtı.",
+      "start": "2026-09-21",
+      "end": "2026-09-21",
+      "language": "tr",
+      "originalLine": "21 Eylül — Yiğit Emre Katran ban appeal açtı."
+    }
+  },
+  {
+    "id": "event-photo-removal",
+    "order": 2,
+    "start": "2026-09-21",
+    "end": "2026-09-21",
+    "dateLabel": "21 September",
+    "originalLine": "21 September — Moderator chakerathe demanded the removal of the Atatürk profile picture.",
+    "text": "Moderator chakerathe demanded the removal of the Atatürk profile picture.",
+    "language": "en",
+    "provenance": "TURKISH COMMUNITY",
+    "target": "restoration-condition",
+    "sourceIds": [
+      "moderation-appeal"
+    ],
+    "originalTurkish": {
+      "dateLabel": "21 Eylül",
+      "text": "Moderatör chakerathe, Atatürk fotoğrafının kaldırılmasını istedi.",
+      "start": "2026-09-21",
+      "end": "2026-09-21",
+      "language": "tr",
+      "originalLine": "21 Eylül — Moderatör chakerathe, Atatürk fotoğrafının kaldırılmasını istedi."
+    }
+  },
+  {
+    "id": "event-polarizing-description",
+    "order": 3,
+    "start": "2026-09-21",
+    "end": "2026-09-22",
+    "dateLabel": "21–22 September",
+    "originalLine": "21–22 September — Atatürk was described as “controversial/polarizing.”",
+    "text": "Atatürk was described as “controversial/polarizing.”",
+    "language": "en",
+    "provenance": "TURKISH COMMUNITY",
+    "target": "historical-accusation",
+    "sourceIds": [
+      "moderation-appeal"
+    ],
+    "originalTurkish": {
+      "dateLabel": "21–22 Eylül",
+      "text": "Atatürk “controversial/polarizing” olarak nitelendirildi.",
+      "start": "2026-09-21",
+      "end": "2026-09-22",
+      "language": "tr",
+      "originalLine": "21–22 Eylül — Atatürk “controversial/polarizing” olarak nitelendirildi."
+    }
+  },
+  {
+    "id": "event-historical-accusation",
+    "order": 4,
+    "start": "2026-09-21",
+    "end": "2026-09-22",
+    "dateLabel": "21–22 September",
+    "originalLine": "21–22 September — Atatürk was linked to 1915 and the Armenian Genocide.",
+    "text": "Atatürk was linked to 1915 and the Armenian Genocide.",
+    "language": "en",
+    "provenance": "TURKISH COMMUNITY",
+    "target": "historical-accusation",
+    "sourceIds": [
+      "moderation-appeal"
+    ],
+    "originalTurkish": {
+      "dateLabel": "21–22 Eylül",
+      "text": "1915 ve Ermeni Soykırımı bağlantısı kuruldu.",
+      "start": "2026-09-21",
+      "end": "2026-09-22",
+      "language": "tr",
+      "originalLine": "21–22 Eylül — 1915 ve Ermeni Soykırımı bağlantısı kuruldu."
+    }
+  },
+  {
+    "id": "event-screenshots-spread",
+    "order": 5,
+    "start": "2026-09-22",
+    "end": "2026-09-22",
+    "dateLabel": "22 September",
+    "originalLine": "22 September — Screenshots from the Discord discussion spread on X.",
+    "text": "Screenshots from the Discord discussion spread on X.",
+    "language": "en",
+    "provenance": "TURKISH COMMUNITY",
+    "target": "public-mobilization",
+    "sourceIds": [
+      "community-mobilization"
+    ],
+    "originalTurkish": {
+      "dateLabel": "22 Eylül",
+      "text": "Discord ekran görüntüleri X’e yayıldı.",
+      "start": "2026-09-22",
+      "end": "2026-09-22",
+      "language": "tr",
+      "originalLine": "22 Eylül — Discord ekran görüntüleri X’e yayıldı."
+    }
+  },
+  {
+    "id": "event-carrie-coverage",
+    "order": 6,
+    "start": "2026-09-22",
+    "end": "2026-09-22",
+    "dateLabel": "22 September",
+    "originalLine": "22 September — CarrieRTV / Sefa brought the incident to his stream.",
+    "text": "CarrieRTV / Sefa brought the incident to his stream.",
+    "language": "en",
+    "provenance": "TURKISH COMMUNITY",
+    "target": "public-mobilization",
+    "sourceIds": [
+      "community-mobilization"
+    ],
+    "originalTurkish": {
+      "dateLabel": "22 Eylül",
+      "text": "CarrieRTV / Sefa olayı yayına taşıdı.",
+      "start": "2026-09-22",
+      "end": "2026-09-22",
+      "language": "tr",
+      "originalLine": "22 Eylül — CarrieRTV / Sefa olayı yayına taşıdı."
+    }
+  },
+  {
+    "id": "event-support-campaign",
+    "order": 7,
+    "start": "2026-09-22",
+    "end": "2026-09-22",
+    "dateLabel": "22 September",
+    "originalLine": "22 September — Hundreds of users contacted Paradox Support.",
+    "text": "Hundreds of users contacted Paradox Support.",
+    "language": "en",
+    "provenance": "TURKISH COMMUNITY",
+    "target": "public-mobilization",
+    "sourceIds": [
+      "community-mobilization"
+    ],
+    "originalTurkish": {
+      "dateLabel": "22 Eylül",
+      "text": "Yüzlerce kullanıcı Paradox Support’a yazdı.",
+      "start": "2026-09-22",
+      "end": "2026-09-22",
+      "language": "tr",
+      "originalLine": "22 Eylül — Yüzlerce kullanıcı Paradox Support’a yazdı."
+    }
+  },
+  {
+    "id": "event-discord-closure",
+    "order": 8,
+    "start": "2026-09-22",
+    "end": "2026-09-23",
+    "dateLabel": "22–23 September",
+    "originalLine": "22–23 September — The HOI4 Discord temporarily stopped accepting new members.",
+    "text": "The HOI4 Discord temporarily stopped accepting new members.",
+    "language": "en",
+    "provenance": "TURKISH COMMUNITY",
+    "target": "discord-closure",
+    "sourceIds": [
+      "community-mobilization"
+    ],
+    "originalTurkish": {
+      "dateLabel": "22–23 Eylül",
+      "text": "HOI4 Discord yeni üyelere kapatıldı.",
+      "start": "2026-09-22",
+      "end": "2026-09-23",
+      "language": "tr",
+      "originalLine": "22–23 Eylül — HOI4 Discord yeni üyelere kapatıldı."
+    }
+  },
+  {
+    "id": "event-discord-bans",
+    "order": 9,
+    "start": "2026-09-22",
+    "end": "2026-09-23",
+    "dateLabel": "22–23 September",
+    "originalLine": "22–23 September — More than 300 Turkish users were banned.",
+    "text": "More than 300 Turkish users were banned.",
+    "language": "en",
+    "provenance": "TURKISH COMMUNITY",
+    "target": "discord-bans",
+    "sourceIds": [
+      "community-mobilization"
+    ],
+    "originalTurkish": {
+      "dateLabel": "22–23 Eylül",
+      "text": "300’den fazla Türk kullanıcı banlandı.",
+      "start": "2026-09-22",
+      "end": "2026-09-23",
+      "language": "tr",
+      "originalLine": "22–23 Eylül — 300’den fazla Türk kullanıcı banlandı."
+    }
+  },
+  {
+    "id": "event-agora-mobilization",
+    "order": 10,
+    "start": "2026-09-23",
+    "end": "2026-09-23",
+    "dateLabel": "23 September",
+    "originalLine": "23 September — Maxmarine / the Agora community mobilized.",
+    "text": "Maxmarine / the Agora community mobilized.",
+    "language": "en",
+    "provenance": "TURKISH COMMUNITY",
+    "target": "agora-mobilization",
+    "sourceIds": [
+      "community-mobilization"
+    ],
+    "originalTurkish": {
+      "dateLabel": "23 Eylül",
+      "text": "Maxmarine / Agora kitlesi mobilize oldu.",
+      "start": "2026-09-23",
+      "end": "2026-09-23",
+      "language": "tr",
+      "originalLine": "23 Eylül — Maxmarine / Agora kitlesi mobilize oldu."
+    }
+  },
+  {
+    "id": "event-muratabigf-boycott",
+    "order": 11,
+    "start": "2026-09-23",
+    "end": "2026-09-23",
+    "dateLabel": "23 September",
+    "originalLine": "23 September — MuratAbiGF joined the protest.",
+    "text": "MuratAbiGF joined the protest.",
+    "language": "en",
+    "provenance": "TURKISH COMMUNITY",
+    "target": "creator-boycott",
+    "sourceIds": [
+      "community-mobilization"
+    ],
+    "originalTurkish": {
+      "dateLabel": "23 Eylül",
+      "text": "MuratAbiGF protestoya katıldı.",
+      "start": "2026-09-23",
+      "end": "2026-09-23",
+      "language": "tr",
+      "originalLine": "23 Eylül — MuratAbiGF protestoya katıldı."
+    }
+  },
+  {
+    "id": "event-yusuf-relationship",
+    "order": 12,
+    "start": "2026-09-23",
+    "end": "2026-09-23",
+    "dateLabel": "23 September",
+    "originalLine": "23 September — Yusuf Kayaalp questioned his relationship with Paradox.",
+    "text": "Yusuf Kayaalp questioned his relationship with Paradox.",
+    "language": "en",
+    "provenance": "TURKISH COMMUNITY",
+    "target": "creator-boycott",
+    "sourceIds": [
+      "community-mobilization"
+    ],
+    "originalTurkish": {
+      "dateLabel": "23 Eylül",
+      "text": "Yusuf Kayaalp Paradox işbirliğini sorguladı.",
+      "start": "2026-09-23",
+      "end": "2026-09-23",
+      "language": "tr",
+      "originalLine": "23 Eylül — Yusuf Kayaalp Paradox işbirliğini sorguladı."
+    }
+  },
+  {
+    "id": "event-jahrein-management",
+    "order": 13,
+    "start": "2026-09-23",
+    "end": "2026-09-23",
+    "dateLabel": "23 September",
+    "originalLine": "23 September — Jahrein contacted senior Paradox management.",
+    "text": "Jahrein contacted senior Paradox management.",
+    "language": "en",
+    "provenance": "TURKISH COMMUNITY",
+    "target": "creator-boycott",
+    "sourceIds": [
+      "community-mobilization"
+    ],
+    "originalTurkish": {
+      "dateLabel": "23 Eylül",
+      "text": "Jahrein, Paradox üst yönetimine ulaştı.",
+      "start": "2026-09-23",
+      "end": "2026-09-23",
+      "language": "tr",
+      "originalLine": "23 Eylül — Jahrein, Paradox üst yönetimine ulaştı."
+    }
+  },
+  {
+    "id": "event-three-demands",
+    "order": 14,
+    "start": "2026-09-23",
+    "end": "2026-09-23",
+    "dateLabel": "23 September",
+    "originalLine": "23 September — Three main demands became clear: an apology, the moderator’s removal, and the withdrawal of the historical accusation.",
+    "text": "Three main demands became clear: an apology, the moderator’s removal, and the withdrawal of the historical accusation.",
+    "language": "en",
+    "provenance": "TURKISH COMMUNITY",
+    "target": "three-demands",
+    "sourceIds": [
+      "community-mobilization"
+    ],
+    "originalTurkish": {
+      "dateLabel": "23 Eylül",
+      "text": "Üç temel talep netleşti: özür, moderatörün kovulması, tarihî iddianın geri çekilmesi.",
+      "start": "2026-09-23",
+      "end": "2026-09-23",
+      "language": "tr",
+      "originalLine": "23 Eylül — Üç temel talep netleşti: özür, moderatörün kovulması, tarihî iddianın geri çekilmesi."
+    }
+  },
+  {
+    "id": "event-historian-boycott",
+    "order": 15,
+    "start": "2026-09-23",
+    "end": "2026-09-23",
+    "dateLabel": "23 September",
+    "originalLine": "23 September — Prof. Dr. Emrah Safa Gürkan called for a boycott.",
+    "text": "Prof. Dr. Emrah Safa Gürkan called for a boycott.",
+    "language": "en",
+    "provenance": "TURKISH COMMUNITY",
+    "target": "historian",
+    "sourceIds": [
+      "historian-boycott"
+    ],
+    "originalTurkish": {
+      "dateLabel": "23 Eylül",
+      "text": "Prof. Dr. Emrah Safa Gürkan boykot çağrısı yaptı.",
+      "start": "2026-09-23",
+      "end": "2026-09-23",
+      "language": "tr",
+      "originalLine": "23 Eylül — Prof. Dr. Emrah Safa Gürkan boykot çağrısı yaptı."
+    }
+  },
+  {
+    "id": "event-turkish-press",
+    "order": 16,
+    "start": "2026-09-23",
+    "end": "2026-09-23",
+    "dateLabel": "23 September",
+    "originalLine": "23 September — Turkish media began covering the controversy extensively.",
+    "text": "Turkish media began covering the controversy extensively.",
+    "language": "en",
+    "provenance": "TURKISH COMMUNITY",
+    "target": "public-mobilization",
+    "sourceIds": [
+      "community-mobilization"
+    ],
+    "originalTurkish": {
+      "dateLabel": "23 Eylül",
+      "text": "Türk basını olayı geniş şekilde haberleştirmeye başladı.",
+      "start": "2026-09-23",
+      "end": "2026-09-23",
+      "language": "tr",
+      "originalLine": "23 Eylül — Türk basını olayı geniş şekilde haberleştirmeye başladı."
+    }
+  },
+  {
+    "id": "event-steam-campaign",
+    "order": 17,
+    "start": "2026-09-23",
+    "end": "2026-09-24",
+    "dateLabel": "23–24 September",
+    "originalLine": "23–24 September — The HOI4 Steam review-bombing campaign began.",
+    "text": "The HOI4 Steam review-bombing campaign began.",
+    "language": "en",
+    "provenance": "TURKISH COMMUNITY",
+    "target": "review-campaign",
+    "sourceIds": [
+      "steam-snapshot"
+    ],
+    "originalTurkish": {
+      "dateLabel": "23–24 Eylül",
+      "text": "HOI4 Steam review bombing başladı.",
+      "start": "2026-09-23",
+      "end": "2026-09-24",
+      "language": "tr",
+      "originalLine": "23–24 Eylül — HOI4 Steam review bombing başladı."
+    }
+  },
+  {
+    "id": "event-other-games",
+    "order": 18,
+    "start": "2026-09-23",
+    "end": "2026-09-24",
+    "dateLabel": "23–24 September",
+    "originalLine": "23–24 September — The protest spread to EU4, Stellaris, Crusader Kings, and Victoria.",
+    "text": "The protest spread to EU4, Stellaris, Crusader Kings, and Victoria.",
+    "language": "en",
+    "provenance": "TURKISH COMMUNITY",
+    "target": "review-campaign",
+    "sourceIds": [
+      "steam-snapshot"
+    ],
+    "originalTurkish": {
+      "dateLabel": "23–24 Eylül",
+      "text": "Protesto EU4, Stellaris, CK ve Victoria’ya yayıldı.",
+      "start": "2026-09-23",
+      "end": "2026-09-24",
+      "language": "tr",
+      "originalLine": "23–24 Eylül — Protesto EU4, Stellaris, CK ve Victoria’ya yayıldı."
+    }
+  },
+  {
+    "id": "event-overwhelmingly-negative",
+    "order": 19,
+    "start": "2026-09-23",
+    "end": "2026-09-24",
+    "dateLabel": "23–24 September",
+    "originalLine": "23–24 September — HOI4 fell to “Overwhelmingly Negative.”",
+    "text": "HOI4 fell to “Overwhelmingly Negative.”",
+    "language": "en",
+    "provenance": "TURKISH COMMUNITY",
+    "target": "review-snapshot",
+    "sourceIds": [
+      "steam-snapshot"
+    ],
+    "originalTurkish": {
+      "dateLabel": "23–24 Eylül",
+      "text": "HOI4 “Overwhelmingly Negative” oldu.",
+      "start": "2026-09-23",
+      "end": "2026-09-24",
+      "language": "tr",
+      "originalLine": "23–24 Eylül — HOI4 “Overwhelmingly Negative” oldu."
+    }
+  },
+  {
+    "id": "event-tommykay-comments",
+    "order": 20,
+    "start": "2026-09-24",
+    "end": "2026-09-24",
+    "dateLabel": "24 September",
+    "originalLine": "24 September — TommyKay made racist remarks targeting Turks.",
+    "text": "TommyKay made racist remarks targeting Turks.",
+    "language": "en",
+    "provenance": "INTERNATIONAL REACTION",
+    "target": "tommykay-comments",
+    "sourceIds": [
+      "tommykay-record"
+    ],
+    "originalTurkish": {
+      "dateLabel": "24 Eylül",
+      "text": "TommyKay Türklere yönelik ırkçı ifadeler kullandı.",
+      "start": "2026-09-24",
+      "end": "2026-09-24",
+      "language": "tr",
+      "originalLine": "24 Eylül — TommyKay Türklere yönelik ırkçı ifadeler kullandı."
+    }
+  },
+  {
+    "id": "event-voice-confrontation",
+    "order": 21,
+    "start": "2026-09-24",
+    "end": "2026-09-24",
+    "dateLabel": "24 September",
+    "originalLine": "24 September — The Jahrein–TommyKay confrontation took place on Maxmarine’s stream.",
+    "text": "The Jahrein–TommyKay confrontation took place on Maxmarine’s stream.",
+    "language": "en",
+    "provenance": "INTERNATIONAL REACTION",
+    "target": "voice-confrontation",
+    "sourceIds": [
+      "tommykay-record"
+    ],
+    "originalTurkish": {
+      "dateLabel": "24 Eylül",
+      "text": "Jahrein–TommyKay tartışması Maxmarine yayınında gerçekleşti.",
+      "start": "2026-09-24",
+      "end": "2026-09-24",
+      "language": "tr",
+      "originalLine": "24 Eylül — Jahrein–TommyKay tartışması Maxmarine yayınında gerçekleşti."
+    }
+  },
+  {
+    "id": "event-permanent-ban-demand",
+    "order": 22,
+    "start": "2026-09-24",
+    "end": "2026-09-24",
+    "dateLabel": "24 September",
+    "originalLine": "24 September — Jahrein said TommyKay deserved a permanent ban.",
+    "text": "Jahrein said TommyKay deserved a permanent ban.",
+    "language": "en",
+    "provenance": "INTERNATIONAL REACTION",
+    "target": "voice-confrontation",
+    "sourceIds": [
+      "tommykay-record"
+    ],
+    "originalTurkish": {
+      "dateLabel": "24 Eylül",
+      "text": "Jahrein, TommyKay’in perma banı hak ettiğini söyledi.",
+      "start": "2026-09-24",
+      "end": "2026-09-24",
+      "language": "tr",
+      "originalLine": "24 Eylül — Jahrein, TommyKay’in perma banı hak ettiğini söyledi."
+    }
+  },
+  {
+    "id": "event-twitch-suspension",
+    "order": 23,
+    "start": "2026-09-24",
+    "end": "2026-09-24",
+    "dateLabel": "24 September",
+    "originalLine": "24 September — TommyKay received a 7-day Twitch ban.",
+    "text": "TommyKay received a 7-day Twitch ban.",
+    "language": "en",
+    "provenance": "PLATFORM INTERVENTION",
+    "target": "twitch-suspension",
+    "sourceIds": [
+      "tommykay-record"
+    ],
+    "originalTurkish": {
+      "dateLabel": "24 Eylül",
+      "text": "TommyKay, Twitch’ten 7 gün ban aldı.",
+      "start": "2026-09-24",
+      "end": "2026-09-24",
+      "language": "tr",
+      "originalLine": "24 Eylül — TommyKay, Twitch’ten 7 gün ban aldı."
+    }
+  },
+  {
+    "id": "event-first-statement",
+    "order": 24,
+    "start": "2026-09-24",
+    "end": "2026-09-24",
+    "dateLabel": "24 September",
+    "originalLine": "24 September — Game Director Batya issued Paradox’s first statement.",
+    "text": "Game Director Batya issued Paradox’s first statement.",
+    "language": "en",
+    "provenance": "PARADOX RESPONSE",
+    "target": "first-response",
+    "sourceIds": [
+      "paradox-first"
+    ],
+    "originalTurkish": {
+      "dateLabel": "24 Eylül",
+      "text": "Game Director Batya ilk açıklamayı yaptı.",
+      "start": "2026-09-24",
+      "end": "2026-09-24",
+      "language": "tr",
+      "originalLine": "24 Eylül — Game Director Batya ilk açıklamayı yaptı."
+    }
+  },
+  {
+    "id": "event-inconsistent-enforcement",
+    "order": 25,
+    "start": "2026-09-24",
+    "end": "2026-09-24",
+    "dateLabel": "24 September",
+    "originalLine": "24 September — Paradox admitted that the rule had been “inconsistently enforced.”",
+    "text": "Paradox admitted that the rule had been “inconsistently enforced.”",
+    "language": "en",
+    "provenance": "PARADOX RESPONSE",
+    "target": "inconsistent-enforcement",
+    "sourceIds": [
+      "paradox-first"
+    ],
+    "originalTurkish": {
+      "dateLabel": "24 Eylül",
+      "text": "Paradox, kuralın “inconsistently enforced” olduğunu kabul etti.",
+      "start": "2026-09-24",
+      "end": "2026-09-24",
+      "language": "tr",
+      "originalLine": "24 Eylül — Paradox, kuralın “inconsistently enforced” olduğunu kabul etti."
+    }
+  },
+  {
+    "id": "event-ban-review",
+    "order": 26,
+    "start": "2026-09-24",
+    "end": "2026-09-24",
+    "dateLabel": "24 September",
+    "originalLine": "24 September — Bans and moderation decisions were placed under review.",
+    "text": "Bans and moderation decisions were placed under review.",
+    "language": "en",
+    "provenance": "PARADOX RESPONSE",
+    "target": "inconsistent-enforcement",
+    "sourceIds": [
+      "paradox-first"
+    ],
+    "originalTurkish": {
+      "dateLabel": "24 Eylül",
+      "text": "Banlar ve moderasyon kararları incelemeye alındı.",
+      "start": "2026-09-24",
+      "end": "2026-09-24",
+      "language": "tr",
+      "originalLine": "24 Eylül — Banlar ve moderasyon kararları incelemeye alındı."
+    }
+  },
+  {
+    "id": "event-first-response-rejected",
+    "order": 27,
+    "start": "2026-09-24",
+    "end": "2026-09-24",
+    "dateLabel": "24 September",
+    "originalLine": "24 September — The Turkish community rejected the statement as insufficient.",
+    "text": "The Turkish community rejected the statement as insufficient.",
+    "language": "en",
+    "provenance": "TURKISH COMMUNITY",
+    "target": "first-response-reaction",
+    "sourceIds": [
+      "paradox-first"
+    ],
+    "originalTurkish": {
+      "dateLabel": "24 Eylül",
+      "text": "Türk topluluğu açıklamayı yetersiz buldu.",
+      "start": "2026-09-24",
+      "end": "2026-09-24",
+      "language": "tr",
+      "originalLine": "24 Eylül — Türk topluluğu açıklamayı yetersiz buldu."
+    }
+  },
+  {
+    "id": "event-second-statement",
+    "order": 28,
+    "start": "2026-09-25",
+    "end": "2026-09-25",
+    "dateLabel": "25 September",
+    "originalLine": "25 September — Paradox issued its second statement.",
+    "text": "Paradox issued its second statement.",
+    "language": "en",
+    "provenance": "PARADOX RESPONSE",
+    "target": "second-response",
+    "sourceIds": [
+      "paradox-second"
+    ],
+    "originalTurkish": {
+      "dateLabel": "25 Eylül",
+      "text": "Paradox ikinci açıklamasını yayımladı.",
+      "start": "2026-09-25",
+      "end": "2026-09-25",
+      "language": "tr",
+      "originalLine": "25 Eylül — Paradox ikinci açıklamasını yayımladı."
+    }
+  },
+  {
+    "id": "event-responsibility-admission",
+    "order": 29,
+    "start": "2026-09-25",
+    "end": "2026-09-25",
+    "dateLabel": "25 September",
+    "originalLine": "25 September — Paradox stated: “This should have been prevented, and we failed.”",
+    "text": "Paradox stated: “This should have been prevented, and we failed.”",
+    "language": "en",
+    "provenance": "PARADOX RESPONSE",
+    "target": "quote-paradox-failed",
+    "sourceIds": [
+      "paradox-second"
+    ],
+    "originalTurkish": {
+      "dateLabel": "25 Eylül",
+      "text": "“This should have been prevented, and we failed” denildi.",
+      "start": "2026-09-25",
+      "end": "2026-09-25",
+      "language": "tr",
+      "originalLine": "25 Eylül — “This should have been prevented, and we failed” denildi."
+    }
+  },
+  {
+    "id": "event-support-messages",
+    "order": 30,
+    "start": "2026-09-25",
+    "end": "2026-09-25",
+    "dateLabel": "25 September",
+    "originalLine": "25 September — Paradox acknowledged that support tickets and messages from Turkish users had contributed to the changes.",
+    "text": "Paradox acknowledged that support tickets and messages from Turkish users had contributed to the changes.",
+    "language": "en",
+    "provenance": "PARADOX RESPONSE",
+    "target": "support-messages",
+    "sourceIds": [
+      "paradox-second"
+    ],
+    "originalTurkish": {
+      "dateLabel": "25 Eylül",
+      "text": "Paradox, Türk kullanıcıların ticket ve mesajlarının değişikliklere katkı sağladığını kabul etti.",
+      "start": "2026-09-25",
+      "end": "2026-09-25",
+      "language": "tr",
+      "originalLine": "25 Eylül — Paradox, Türk kullanıcıların ticket ve mesajlarının değişikliklere katkı sağladığını kabul etti."
+    }
+  },
+  {
+    "id": "event-rule-four-rewritten",
+    "order": 31,
+    "start": "2026-09-25",
+    "end": "2026-09-25",
+    "dateLabel": "25 September",
+    "originalLine": "25 September — Discord Rule 4 was completely rewritten.",
+    "text": "Discord Rule 4 was completely rewritten.",
+    "language": "en",
+    "provenance": "PARADOX RESPONSE",
+    "target": "rule-four",
+    "sourceIds": [
+      "paradox-second"
+    ],
+    "originalTurkish": {
+      "dateLabel": "25 Eylül",
+      "text": "Discord Rule 4 tamamen değiştirildi.",
+      "start": "2026-09-25",
+      "end": "2026-09-25",
+      "language": "tr",
+      "originalLine": "25 Eylül — Discord Rule 4 tamamen değiştirildi."
+    }
+  },
+  {
+    "id": "event-post-1800-policy",
+    "order": 32,
+    "start": "2026-09-25",
+    "end": "2026-09-25",
+    "dateLabel": "25 September",
+    "originalLine": "25 September — Real photographs of political and military figures born after 1800 were banned.",
+    "text": "Real photographs of political and military figures born after 1800 were banned.",
+    "language": "en",
+    "provenance": "PARADOX RESPONSE",
+    "target": "rule-four",
+    "sourceIds": [
+      "paradox-second"
+    ],
+    "originalTurkish": {
+      "dateLabel": "25 Eylül",
+      "text": "1800 sonrası siyasi/askerî gerçek fotoğrafları yasaklandı.",
+      "start": "2026-09-25",
+      "end": "2026-09-25",
+      "language": "tr",
+      "originalLine": "25 Eylül — 1800 sonrası siyasi/askerî gerçek fotoğrafları yasaklandı."
+    }
+  },
+  {
+    "id": "event-official-portrait-policy",
+    "order": 33,
+    "start": "2026-09-25",
+    "end": "2026-09-25",
+    "dateLabel": "25 September",
+    "originalLine": "25 September — The official HOI4 portrait of Atatürk was permitted.",
+    "text": "The official HOI4 portrait of Atatürk was permitted.",
+    "language": "en",
+    "provenance": "PARADOX RESPONSE",
+    "target": "rule-four",
+    "sourceIds": [
+      "paradox-second"
+    ],
+    "originalTurkish": {
+      "dateLabel": "25 Eylül",
+      "text": "Resmî HOI4 Atatürk portresine izin verildi.",
+      "start": "2026-09-25",
+      "end": "2026-09-25",
+      "language": "tr",
+      "originalLine": "25 Eylül — Resmî HOI4 Atatürk portresine izin verildi."
+    }
+  },
+  {
+    "id": "event-no-explicit-apology",
+    "order": 34,
+    "start": "2026-09-25",
+    "end": "2026-09-25",
+    "dateLabel": "25 September",
+    "originalLine": "25 September — Paradox still did not issue an explicit apology.",
+    "text": "Paradox still did not issue an explicit apology.",
+    "language": "en",
+    "provenance": "TURKISH COMMUNITY",
+    "target": "unanswered-remedies",
+    "sourceIds": [
+      "paradox-second"
+    ],
+    "originalTurkish": {
+      "dateLabel": "25 Eylül",
+      "text": "Paradox hâlâ açık özür dilemedi.",
+      "start": "2026-09-25",
+      "end": "2026-09-25",
+      "language": "tr",
+      "originalLine": "25 Eylül — Paradox hâlâ açık özür dilemedi."
+    }
+  },
+  {
+    "id": "event-no-removal-announced",
+    "order": 35,
+    "start": "2026-09-25",
+    "end": "2026-09-25",
+    "dateLabel": "25 September",
+    "originalLine": "25 September — No dismissal of chakerathe was announced.",
+    "text": "No dismissal of chakerathe was announced.",
+    "language": "en",
+    "provenance": "TURKISH COMMUNITY",
+    "target": "unanswered-remedies",
+    "sourceIds": [
+      "paradox-second"
+    ],
+    "originalTurkish": {
+      "dateLabel": "25 Eylül",
+      "text": "chakerathe hakkında görevden alma açıklanmadı.",
+      "start": "2026-09-25",
+      "end": "2026-09-25",
+      "language": "tr",
+      "originalLine": "25 Eylül — chakerathe hakkında görevden alma açıklanmadı."
+    }
+  },
+  {
+    "id": "event-no-retraction",
+    "order": 36,
+    "start": "2026-09-25",
+    "end": "2026-09-25",
+    "dateLabel": "25 September",
+    "originalLine": "25 September — The 1915-related accusation against Atatürk was not withdrawn.",
+    "text": "The 1915-related accusation against Atatürk was not withdrawn.",
+    "language": "en",
+    "provenance": "TURKISH COMMUNITY",
+    "target": "unanswered-remedies",
+    "sourceIds": [
+      "paradox-second"
+    ],
+    "originalTurkish": {
+      "dateLabel": "25 Eylül",
+      "text": "Atatürk hakkındaki 1915 iddiası geri çekilmedi.",
+      "start": "2026-09-25",
+      "end": "2026-09-25",
+      "language": "tr",
+      "originalLine": "25 Eylül — Atatürk hakkındaki 1915 iddiası geri çekilmedi."
+    }
+  },
+  {
+    "id": "event-playrion-incident",
+    "order": 37,
+    "start": "2026-09-25",
+    "end": "2026-09-25",
+    "dateLabel": "25 September",
+    "originalLine": "25 September — The support system of Paradox-owned Playrion was hacked.",
+    "text": "The support system of Paradox-owned Playrion was hacked.",
+    "language": "en",
+    "provenance": "REPORTED CYBER INCIDENT",
+    "target": "cyber-escalation",
+    "sourceIds": [
+      "playrion-incident"
+    ],
+    "originalTurkish": {
+      "dateLabel": "25 Eylül",
+      "text": "Paradox-owned Playrion support sistemi hacklendi.",
+      "start": "2026-09-25",
+      "end": "2026-09-25",
+      "language": "tr",
+      "originalLine": "25 Eylül — Paradox-owned Playrion support sistemi hacklendi."
+    }
+  },
+  {
+    "id": "event-cyber-message",
+    "order": 38,
+    "start": "2026-09-25",
+    "end": "2026-09-25",
+    "dateLabel": "25 September",
+    "originalLine": "25 September — Users received an email titled “HACKED BY TURKS.”",
+    "text": "Users received an email titled “HACKED BY TURKS.”",
+    "language": "en",
+    "provenance": "REPORTED CYBER INCIDENT",
+    "target": "quote-cyber-subject",
+    "sourceIds": [
+      "playrion-incident"
+    ],
+    "originalTurkish": {
+      "dateLabel": "25 Eylül",
+      "text": "Kullanıcılara “HACKED BY TURKS” maili gönderildi.",
+      "start": "2026-09-25",
+      "end": "2026-09-25",
+      "language": "tr",
+      "originalLine": "25 Eylül — Kullanıcılara “HACKED BY TURKS” maili gönderildi."
+    }
+  },
+  {
+    "id": "event-account-access-claim",
+    "order": 39,
+    "start": "2026-09-25",
+    "end": "2026-09-25",
+    "dateLabel": "25 September",
+    "originalLine": "25 September — The hackers claimed access to data connected to more than 2.2 million accounts.",
+    "text": "The hackers claimed access to data connected to more than 2.2 million accounts.",
+    "language": "en",
+    "provenance": "REPORTED CYBER INCIDENT",
+    "target": "claimed-account-access",
+    "sourceIds": [
+      "playrion-incident"
+    ],
+    "originalTurkish": {
+      "dateLabel": "25 Eylül",
+      "text": "Hackerlar 2.2M+ hesap verisine eriştiklerini iddia etti.",
+      "start": "2026-09-25",
+      "end": "2026-09-25",
+      "language": "tr",
+      "originalLine": "25 Eylül — Hackerlar 2.2M+ hesap verisine eriştiklerini iddia etti."
+    }
+  },
+  {
+    "id": "event-valve-intervention",
+    "order": 40,
+    "start": "2026-09-25",
+    "end": "2026-09-25",
+    "dateLabel": "25 September",
+    "originalLine": "25 September — Valve marked the review wave as “off-topic activity.”",
+    "text": "Valve marked the review wave as “off-topic activity.”",
+    "language": "en",
+    "provenance": "PLATFORM INTERVENTION",
+    "target": "review-score-intervention",
+    "sourceIds": [
+      "valve-notice"
+    ],
+    "originalTurkish": {
+      "dateLabel": "25 Eylül",
+      "text": "Valve review dalgasını “off-topic activity” olarak işaretledi.",
+      "start": "2026-09-25",
+      "end": "2026-09-25",
+      "language": "tr",
+      "originalLine": "25 Eylül — Valve review dalgasını “off-topic activity” olarak işaretledi."
+    }
+  },
+  {
+    "id": "event-neolithic-diary",
+    "order": 41,
+    "start": "2026-09-25",
+    "end": "2026-09-25",
+    "dateLabel": "25 September",
+    "originalLine": "25 September — The developer of [Neolithic]To the End used the name “Turko-Paradox War.”",
+    "text": "The developer of [Neolithic]To the End used the name “Turko-Paradox War.”",
+    "language": "en",
+    "provenance": "INTERNATIONAL REACTION",
+    "target": "developer-support",
+    "sourceIds": [
+      "neolithic-diary"
+    ],
+    "originalTurkish": {
+      "dateLabel": "25 Eylül",
+      "text": "[Neolithic]To the End geliştiricisi “Turko-Paradox War” adını kullandı.",
+      "start": "2026-09-25",
+      "end": "2026-09-25",
+      "language": "tr",
+      "originalLine": "25 Eylül — [Neolithic]To the End geliştiricisi “Turko-Paradox War” adını kullandı."
+    }
+  },
+  {
+    "id": "event-in-game-portraits",
+    "order": 42,
+    "start": "2026-09-25",
+    "end": "2026-09-25",
+    "dateLabel": "25 September",
+    "originalLine": "25 September — The same developer added two Atatürk portraits to the game.",
+    "text": "The same developer added two Atatürk portraits to the game.",
+    "language": "en",
+    "provenance": "INTERNATIONAL REACTION",
+    "target": "developer-support",
+    "sourceIds": [
+      "neolithic-diary"
+    ],
+    "originalTurkish": {
+      "dateLabel": "25 Eylül",
+      "text": "Aynı geliştirici oyuna iki Atatürk portresi ekledi.",
+      "start": "2026-09-25",
+      "end": "2026-09-25",
+      "language": "tr",
+      "originalLine": "25 Eylül — Aynı geliştirici oyuna iki Atatürk portresi ekledi."
+    }
+  },
+  {
+    "id": "event-continuing-protest",
+    "order": 43,
+    "start": "2026-09-26",
+    "end": "2026-09-26",
+    "dateLabel": "26 September",
+    "originalLine": "26 September — The protest continued; the three main demands remained unmet.",
+    "text": "The protest continued; the three main demands remained unmet.",
+    "language": "en",
+    "provenance": "TURKISH COMMUNITY",
+    "target": "september-26",
+    "sourceIds": [
+      "status-record"
+    ],
+    "originalTurkish": {
+      "dateLabel": "26 Eylül",
+      "text": "Protesto sürüyor; üç ana talep karşılanmış değil.",
+      "start": "2026-09-26",
+      "end": "2026-09-26",
+      "language": "tr",
+      "originalLine": "26 Eylül — Protesto sürüyor; üç ana talep karşılanmış değil."
+    }
+  }
+]

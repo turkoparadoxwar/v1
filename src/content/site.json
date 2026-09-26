@@ -1,0 +1,65 @@
+{
+  "title": "THE TURKO–PARADOX WAR",
+  "description": "A continuous historical chronicle of the September 2026 confrontation between the Turkish gaming community and Paradox Interactive.",
+  "coverageStart": "2026-09-21",
+  "coverageEnd": "2026-09-26",
+  "narrativeAsOf": "2026-09-25",
+  "statistics": [
+    {
+      "value": "6",
+      "label": "DAYS",
+      "detail": "Record covered: 21–26 September 2026. The conflict has no recorded end date.",
+      "target": "timeline"
+    },
+    {
+      "value": "300+",
+      "label": "DISCORD BANS",
+      "detail": "Turkish users banned from the official HOI4 server in the supplied account.",
+      "target": "discord-bans"
+    },
+    {
+      "metric": "recentReviews",
+      "label": "RECENT REVIEWS",
+      "detail": "Steam snapshot · 25 September. Includes positive and negative reviews.",
+      "target": "review-snapshot"
+    },
+    {
+      "value": "1",
+      "label": "POLICY REWRITTEN",
+      "detail": "Discord Rule 4 · 25 September.",
+      "target": "rule-four"
+    },
+    {
+      "metric": "demandCount",
+      "label": "DEMANDS",
+      "detail": "Not fully satisfied in the supplied record through 26 September.",
+      "target": "demands-ledger"
+    }
+  ],
+  "reviewSnapshot": {
+    "total": 25034,
+    "positivePercent": 7,
+    "date": "2026-09-25",
+    "classification": "Overwhelmingly Negative"
+  },
+  "demands": [
+    {
+      "id": "demand-apology",
+      "label": "An official apology",
+      "ledgerLabel": "Explicit official apology",
+      "status": "Not issued as demanded"
+    },
+    {
+      "id": "demand-accountability",
+      "label": "Moderator accountability",
+      "ledgerLabel": "Moderator removal",
+      "status": "No removal publicly announced"
+    },
+    {
+      "id": "demand-retraction",
+      "label": "A historical retraction",
+      "ledgerLabel": "Historical accusation withdrawn / corrected",
+      "status": "No public retraction or correction described"
+    }
+  ]
+}

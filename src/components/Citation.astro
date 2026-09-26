@@ -1,0 +1,6 @@
+---
+import { referencesFor,sourceNumber,citationId } from '../lib/content.mjs';
+const {chapter,block}=Astro.props;
+const refs=referencesFor(chapter,block);
+---
+{refs.length>0&&<span class="citations" aria-label="References">{refs.map(s=><sup><a id={citationId(s.id,chapter,block)} href={`#reference-${s.id}`} aria-label={`Reference ${sourceNumber(s.id)}: ${s.title}`}>[{sourceNumber(s.id)}]</a></sup>)}</span>}

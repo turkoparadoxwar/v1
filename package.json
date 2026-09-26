@@ -1,0 +1,29 @@
+{
+  "name": "turko-paradox-war",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "node scripts/astro.mjs dev --host 127.0.0.1",
+    "build": "node scripts/astro.mjs build && node scripts/verify-build.mjs",
+    "preview": "node scripts/astro.mjs preview --host 127.0.0.1",
+    "verify": "node scripts/verify-build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "test:browser": "node scripts/browser-check.mjs"
+  },
+  "dependencies": {
+    "astro": "7.3.5",
+    "marked": "^16.0.0"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@fontsource/barlow-condensed": "^5.2.0",
+    "@fontsource/source-serif-4": "^5.2.0",
+    "linkedom": "^0.18.12",
+    "playwright": "^1.62.1",
+    "sharp": "^0.35.4"
+  }
+}

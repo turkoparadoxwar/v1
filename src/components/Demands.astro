@@ -1,0 +1,8 @@
+---
+import { site,demandItems } from '../lib/content.mjs';
+const {blockId}=Astro.props;
+---
+<section id="three-demands" class="demands-panel" aria-labelledby="demands-title" data-section data-nav-label="The Three Demands">
+  <header><span class="provenance">TURKISH COMMUNITY</span><h3 id="demands-title">The Three Demands</h3><span class="eyebrow">23 SEPTEMBER / THE TERMS OF THE PROTEST</span></header>
+  <ol data-original={blockId}>{site.demands.map((d,i)=><li id={d.id}><span class="demand-number" data-editorial aria-hidden="true">0{i+1}</span><h4 data-editorial>{d.label}</h4><div class="demand-wording" set:html={demandItems[i]} /></li>)}</ol>
+</section>

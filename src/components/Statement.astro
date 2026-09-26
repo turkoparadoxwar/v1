@@ -1,0 +1,8 @@
+---
+const {html,blockId,kind='paradox',date='25 SEPTEMBER 2026',caption='Batya · Hearts of Iron Game Director',id}=Astro.props;
+---
+<figure id={id} class:list={['statement',kind]}>
+  <header><span class="provenance">{kind==='paradox'?'PARADOX RESPONSE':kind==='community'?'INTERNATIONAL REACTION':'REPORTED EMAIL SUBJECT'}</span><span>{date}</span></header>
+  <div class="statement-quote" data-original={blockId} set:html={html} />
+  <figcaption><span>{caption}</span><small>Quoted excerpt reproduced in the supplied article.</small></figcaption>
+</figure>

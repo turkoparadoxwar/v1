@@ -1,0 +1,13 @@
+---
+import {site,events} from '../lib/content.mjs';
+const update=events.find(e=>e.id==='event-continuing-protest');
+---
+<section id="demands-ledger" class="demands-ledger" aria-labelledby="ledger-title" data-section data-nav-label="The unresolved demands">
+  <span class="eyebrow">THE TERMS OF THE PROTEST, REVISITED</span>
+  <h2 id="ledger-title">What remained<br /><span class="muted">unresolved.</span></h2>
+  <p class="ledger-date">Recorded in the supplied article as of <time datetime={site.narrativeAsOf}>25 September 2026</time>.</p>
+  <ol>{site.demands.map((d,i)=><li><span class="ledger-number" aria-hidden="true">0{i+1}</span><a href={`#${d.id}`}>{d.ledgerLabel}</a><span class="ledger-status">{d.status}</span></li>)}</ol>
+  <p class="ledger-note">The absence of a public announcement is not evidence that no internal action occurred.</p>
+  <section id="september-26" class="status-update" aria-labelledby="update-title" data-section data-nav-label="26 September update"><div><time datetime={update.start}>26 <span>SEP</span></time><span class="eyebrow">CHRONOLOGY UPDATE</span></div><h3 id="update-title">The record continues.</h3><p lang={update.language}>{update.text}</p><small>26 September entry from the supplied chronology. The article’s conclusion remains dated 25 September.</small></section>
+  <div class="unresolved-rule" aria-hidden="true"><span></span><span></span></div>
+</section>

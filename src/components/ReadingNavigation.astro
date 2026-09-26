@@ -1,0 +1,7 @@
+---
+import { chapters } from '../lib/content.mjs';
+---
+<aside class="reading-rail" aria-label="Chapter navigation">
+  <nav aria-label="Chronicle chapters"><p class="eyebrow">IN THIS RECORD</p><ol>{chapters.map(c=><li><a href={`#${c.id}`} data-chapter-link={c.id}><span class="rail-number">{String(c.number).padStart(2,'0')}</span><span>{c.label}<small>{c.date} SEP</small></span></a></li>)}</ol><a class="rail-footer" href="#sources">Sources & credits <span aria-hidden="true">↘</span></a></nav>
+</aside>
+<div class="mobile-reader"><a href="#top" class="mobile-mark" aria-label="Back to the beginning"><span class="paired-mark" aria-hidden="true"></span></a><span class="mobile-current">The chronicle</span><details class="mobile-contents"><summary>Contents <span aria-hidden="true">+</span></summary><nav aria-label="Mobile contents"><a href="#chronicle">Introduction</a><a href="#timeline">Complete timeline</a>{chapters.map(c=><a href={`#${c.id}`}>{c.label}</a>)}<a href="#sources">Sources & credits</a></nav></details></div>

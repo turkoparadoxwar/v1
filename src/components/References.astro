@@ -1,0 +1,10 @@
+---
+import { publishedSources,sourceNumber,citationId,media } from '../lib/content.mjs';
+---
+<section id="sources" class="sources-section shell" aria-labelledby="sources-title" data-section data-nav-label="Sources & credits">
+  <header class="section-top"><span class="eyebrow">THE RECORD BEHIND THE RECORD</span><a class="text-link" href="#top">Back to the beginning ↑</a></header>
+  <div class="section-heading"><h2 id="sources-title">Sources & credits</h2><p>The documentary record<br />behind this chronicle.</p></div>
+  <div class="source-intro"><h3>Documentary record</h3><p>This chronicle preserves the supplied historical article and approved English chronology. The following reports, discussions, statements, and platform records accompany the account.</p></div>
+  <ol class="reference-list" aria-label="Numbered references">{publishedSources.map(s=><li id={`reference-${s.id}`} value={sourceNumber(s.id)}><strong>{s.title}</strong><div class="source-links">{s.links.map(link=><a href={link.url}>{link.label} <span aria-hidden="true">↗</span></a>)}</div><span class="reference-backlinks">{s.locations.map((loc,i)=><a href={`#${citationId(s.id,loc.chapter,loc.block)}`} aria-label={`Return to citation ${i+1} for ${s.title}`}>↩ {i+1}</a>)}</span></li>)}</ol>
+  <div class="source-bottom"><section class="image-credits" aria-labelledby="image-credits-title"><h3 id="image-credits-title">Image credits</h3><ul>{media.map(m=><li><strong>{m.caption}</strong><span>{m.original}</span></li>)}</ul><p>Images supplied with the project. Original creator/source credits remain to be provided. The opening is an illustration; Yusuf Kayaalp’s image is an illustrated avatar. MuratAbiGF’s image uses the frontal view of the supplied asset.</p></section></div>
+</section>

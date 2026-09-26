@@ -1,0 +1,72 @@
+[
+  {
+    "id": "main-art",
+    "original": "MainArt.png",
+    "file": "hero/main-art.png",
+    "alt": "Panoramic illustration: Atatürk and the Turkish gaming community in red face a cold-blue moderation apparatus across a central divide.",
+    "caption": "Opening illustration",
+    "width": null,
+    "credit": "Supplied project asset; original creator/source credit not provided.",
+    "creditStatus": "pending"
+  },
+  {
+    "id": "chakerathe",
+    "original": "chakerathe.jpg",
+    "file": "people/chakerathe.jpg",
+    "alt": "Supplied image associated with chakerathe, seated wearing a headset.",
+    "caption": "chakerathe",
+    "width": 180,
+    "credit": "Supplied project asset; original creator/source credit not provided.",
+    "creditStatus": "pending"
+  },
+  {
+    "id": "emrah-safa-gurkan",
+    "original": "emrahsafagurkan.jpg",
+    "file": "people/emrah-safa-gurkan.jpg",
+    "alt": "Portrait of Prof. Dr. Emrah Safa Gürkan.",
+    "caption": "Prof. Dr. Emrah Safa Gürkan",
+    "width": 300,
+    "credit": "Supplied project asset; original creator/source credit not provided.",
+    "creditStatus": "pending"
+  },
+  {
+    "id": "jahrein",
+    "original": "Jahrein.jpg",
+    "file": "people/jahrein.jpg",
+    "alt": "Supplied portrait of Jahrein, seated with folded hands.",
+    "caption": "Jahrein",
+    "width": 112,
+    "credit": "Supplied project asset; original creator/source credit not provided.",
+    "creditStatus": "pending"
+  },
+  {
+    "id": "maxmarine",
+    "original": "Maxmarine.jpg",
+    "file": "people/maxmarine.jpg",
+    "alt": "Portrait of Maxmarine wearing a headset.",
+    "caption": "Maxmarine / Agora",
+    "width": 250,
+    "credit": "Supplied project asset; original creator/source credit not provided.",
+    "creditStatus": "pending"
+  },
+  {
+    "id": "muratabigf",
+    "original": "Muratabigf.webp",
+    "file": "people/muratabigf.webp",
+    "alt": "Frontal view of MuratAbiGF from the supplied two-view image.",
+    "caption": "MuratAbiGF",
+    "width": 128,
+    "credit": "Supplied project asset; original creator/source credit not provided.",
+    "creditStatus": "pending"
+  },
+  {
+    "id": "yusuf-kayaalp",
+    "original": "yusufkayaalp.jpg",
+    "file": "people/yusuf-kayaalp.jpg",
+    "alt": "Supplied illustrated avatar associated with Yusuf Kayaalp.",
+    "caption": "Yusuf Kayaalp",
+    "width": 112,
+    "credit": "Supplied project asset; original creator/source credit not provided.",
+    "creditStatus": "pending"
+  }
+]

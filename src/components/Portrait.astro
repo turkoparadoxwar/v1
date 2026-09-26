@@ -1,0 +1,12 @@
+---
+import { Image } from 'astro:assets';
+import { images } from '../lib/images';
+import { media,people } from '../lib/content.mjs';
+const {imageKey}=Astro.props;
+const item=media.find(m=>m.id===imageKey);
+const person=people.find(p=>p.image===imageKey);
+---
+<figure class:list={['portrait',imageKey]} data-portrait={imageKey} style={`--portrait-width:${item.width}px`}>
+  <Image src={images[imageKey]} alt={item.alt} width={item.width*2>images[imageKey].width?images[imageKey].width:item.width*2} widths={[item.width,Math.min(item.width*2,images[imageKey].width)]} sizes={`${item.width}px`} format="webp" quality={82} loading="lazy" />
+  <figcaption><span>{item.caption}</span><small>{person?.role}</small></figcaption>
+</figure>

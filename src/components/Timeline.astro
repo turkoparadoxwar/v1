@@ -1,0 +1,23 @@
+---
+import { events } from '../lib/content.mjs';
+import { timelineHtml } from '../lib/timeline.mjs';
+const days=[...new Set(events.map(e=>e.start))];
+const groupTone=(provenance)=>provenance==='PARADOX RESPONSE'?'blue':provenance==='TURKISH COMMUNITY'?'red':'neutral';
+---
+<section id="timeline" class="timeline-section" aria-labelledby="timeline-title" data-section data-nav-label="The complete chronology">
+  <header class="section-top"><span class="eyebrow">CHRONOLOGY / 43 ENTRIES</span><a class="text-link" href="#origins">Continue to the narrative <span aria-hidden="true">↘</span></a></header>
+  <div class="section-heading"><h2 id="timeline-title">Six days.<br /><span class="muted">An unresolved record.</span></h2><p>The complete supplied chronology.<br />21–26 September 2026.</p></div>
+  <nav class="date-overview" aria-label="Jump to a timeline date">{days.map(day=><a href={`#timeline-${day}`}><strong>{day.slice(-2)}</strong><span>SEP</span></a>)}</nav>
+  <div class="timeline-groups">
+    {days.map(day=><section class="timeline-day" id={`timeline-${day}`} aria-labelledby={`day-label-${day}`}>
+      <h3 id={`day-label-${day}`} class="timeline-date"><time datetime={day}><span>{day.slice(-2)}</span> SEPTEMBER <small>2026</small></time></h3>
+      <ol class="event-list" start={events.find(e=>e.start===day).order}>
+        {events.filter(e=>e.start===day).map(e=><li id={e.id} class:list={['timeline-event',groupTone(e.provenance)]} data-event-id={e.id}>
+          <div class="event-meta"><span class="provenance">{e.provenance}</span><span class="event-range"><time datetime={e.start}>{e.start.slice(-2)}</time>{e.start!==e.end&&<>–<time datetime={e.end}>{e.end.slice(-2)}</time></>} SEP</span></div>
+          <a class="event-link" href={`#${e.target}`}><span class="event-text" lang={e.language} set:html={timelineHtml(e.text)} /><span class="event-arrow" aria-hidden="true">↗</span></a>
+        </li>)}
+      </ol>
+    </section>)}
+  </div>
+  <a class="timeline-exit" href="#origins"><span class="eyebrow">FOLLOW THE COMPLETE ACCOUNT</span><span>Return to the beginning <span aria-hidden="true">↘</span></span></a>
+</section>

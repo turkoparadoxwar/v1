@@ -1,0 +1,191 @@
+[
+  {
+    "id": "origins",
+    "label": "Origins",
+    "date": "21–22",
+    "provenance": "TURKISH COMMUNITY",
+    "tone": "red",
+    "number": 1,
+    "blockAnchors": {
+      "0": [
+        "ban-appeal"
+      ],
+      "1": [
+        "restoration-condition"
+      ],
+      "2": [
+        "historical-accusation"
+      ],
+      "4": [
+        "historical-context"
+      ]
+    }
+  },
+  {
+    "id": "mobilization",
+    "label": "Mobilization",
+    "date": "22–23",
+    "provenance": "TURKISH COMMUNITY",
+    "tone": "red",
+    "number": 2,
+    "blockAnchors": {
+      "0": [
+        "public-mobilization"
+      ],
+      "1": [
+        "discord-closure"
+      ],
+      "2": [
+        "discord-bans"
+      ],
+      "3": [
+        "agora-mobilization"
+      ],
+      "4": [
+        "creator-boycott"
+      ],
+      "6": [
+        "demands-list"
+      ]
+    }
+  },
+  {
+    "id": "historian",
+    "label": "The historian",
+    "date": "23",
+    "provenance": "TURKISH COMMUNITY",
+    "tone": "red",
+    "number": 3,
+    "blockAnchors": {}
+  },
+  {
+    "id": "steam-offensive",
+    "label": "The Steam offensive",
+    "date": "23–25",
+    "provenance": "TURKISH COMMUNITY",
+    "tone": "red",
+    "number": 4,
+    "blockAnchors": {
+      "1": [
+        "review-campaign"
+      ],
+      "2": [
+        "review-snapshot"
+      ],
+      "3": [
+        "international-reactions"
+      ]
+    }
+  },
+  {
+    "id": "tommykay",
+    "label": "International confrontation",
+    "date": "24",
+    "provenance": "INTERNATIONAL REACTION",
+    "tone": "neutral",
+    "number": 5,
+    "blockAnchors": {
+      "1": [
+        "tommykay-comments"
+      ],
+      "2": [
+        "voice-confrontation"
+      ],
+      "3": [
+        "twitch-suspension"
+      ]
+    }
+  },
+  {
+    "id": "first-response",
+    "label": "The first response",
+    "date": "24",
+    "provenance": "PARADOX RESPONSE",
+    "tone": "blue",
+    "number": 6,
+    "blockAnchors": {
+      "2": [
+        "inconsistent-enforcement"
+      ],
+      "4": [
+        "first-response-reaction"
+      ]
+    }
+  },
+  {
+    "id": "second-response",
+    "label": "The second response",
+    "date": "25",
+    "provenance": "PARADOX RESPONSE",
+    "tone": "blue",
+    "number": 7,
+    "blockAnchors": {
+      "3": [
+        "quote-paradox-failed"
+      ],
+      "4": [
+        "support-messages"
+      ],
+      "5": [
+        "rule-four"
+      ],
+      "7": [
+        "unmet-demands"
+      ],
+      "8": [
+        "unanswered-remedies"
+      ]
+    }
+  },
+  {
+    "id": "cyber-escalation",
+    "label": "Cyber escalation",
+    "date": "25",
+    "provenance": "REPORTED CYBER INCIDENT",
+    "tone": "neutral",
+    "number": 8,
+    "blockAnchors": {
+      "2": [
+        "quote-cyber-subject"
+      ],
+      "3": [
+        "claimed-account-access"
+      ]
+    }
+  },
+  {
+    "id": "valve",
+    "label": "Valve intervenes",
+    "date": "25",
+    "provenance": "PLATFORM INTERVENTION",
+    "tone": "neutral",
+    "number": 9,
+    "blockAnchors": {
+      "1": [
+        "review-score-intervention"
+      ]
+    }
+  },
+  {
+    "id": "international-support",
+    "label": "International support",
+    "date": "25",
+    "provenance": "INTERNATIONAL REACTION",
+    "tone": "red",
+    "number": 10,
+    "blockAnchors": {
+      "1": [
+        "developer-support"
+      ]
+    }
+  },
+  {
+    "id": "aftermath",
+    "label": "Aftermath",
+    "date": "25",
+    "provenance": "THE UNRESOLVED RECORD",
+    "tone": "red",
+    "number": 11,
+    "blockAnchors": {}
+  }
+]

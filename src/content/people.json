@@ -1,0 +1,92 @@
+[
+  {
+    "id": "yigit-emre-katran",
+    "name": "Yiğit Emre Katran",
+    "role": "Account holder",
+    "chapter": "origins",
+    "block": 0,
+    "image": null,
+    "mention": "Yiğit Emre Katran"
+  },
+  {
+    "id": "chakerathe",
+    "name": "chakerathe",
+    "role": "HOI4 Discord moderator",
+    "chapter": "origins",
+    "block": 1,
+    "image": "chakerathe",
+    "mention": "chakerathe"
+  },
+  {
+    "id": "carrie-rtv",
+    "name": "CarrieRTV / Sefa",
+    "role": "Creator · early public mobilization",
+    "chapter": "mobilization",
+    "block": 0,
+    "image": null,
+    "mention": "CarrieRTV/Sefa"
+  },
+  {
+    "id": "maxmarine",
+    "name": "Maxmarine / Agora",
+    "role": "Strategy-game community",
+    "chapter": "mobilization",
+    "block": 3,
+    "image": "maxmarine",
+    "mention": "Maxmarine"
+  },
+  {
+    "id": "muratabigf",
+    "name": "MuratAbiGF",
+    "role": "Creator · boycott",
+    "chapter": "mobilization",
+    "block": 4,
+    "image": "muratabigf",
+    "mention": "MuratAbiGF"
+  },
+  {
+    "id": "yusuf-kayaalp",
+    "name": "Yusuf Kayaalp",
+    "role": "Creator · commercial relationship",
+    "chapter": "mobilization",
+    "block": 4,
+    "image": "yusuf-kayaalp",
+    "mention": "Yusuf Kayaalp"
+  },
+  {
+    "id": "jahrein",
+    "name": "Jahrein",
+    "role": "Creator · management contact",
+    "chapter": "mobilization",
+    "block": 4,
+    "image": "jahrein",
+    "mention": "Jahrein"
+  },
+  {
+    "id": "emrah-safa-gurkan",
+    "name": "Prof. Dr. Emrah Safa Gürkan",
+    "role": "Historian · boycott",
+    "chapter": "historian",
+    "block": 0,
+    "image": "emrah-safa-gurkan",
+    "mention": "Prof. Dr. Emrah Safa Gürkan"
+  },
+  {
+    "id": "tommykay",
+    "name": "TommyKay",
+    "role": "International HOI4 streamer",
+    "chapter": "tommykay",
+    "block": 0,
+    "image": null,
+    "mention": "TommyKay"
+  },
+  {
+    "id": "batya",
+    "name": "Batya",
+    "role": "Hearts of Iron Game Director",
+    "chapter": "first-response",
+    "block": 0,
+    "image": null,
+    "mention": "Batya"
+  }
+]

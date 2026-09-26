@@ -1,0 +1,35 @@
+---
+import {people,firstResponseQuote,internationalQuote,site} from '../lib/content.mjs';
+import Portrait from './Portrait.astro';
+import Demands from './Demands.astro';
+import Statement from './Statement.astro';
+import Citation from './Citation.astro';
+const {chapter}=Astro.props;
+const snapshot=site.reviewSnapshot;
+---
+<section id={chapter.id} class:list={['chapter',chapter.tone,chapter.id]} aria-labelledby={`${chapter.id}-title`} data-section data-nav-label={chapter.label}>
+  <header class="chapter-header"><div class="chapter-kicker"><span class="chapter-number">{String(chapter.number).padStart(2,'0')} / CHRONICLE</span><span class="provenance">{chapter.provenance}</span></div><div class="chapter-heading"><h2 id={`${chapter.id}-title`} data-original-heading>{chapter.title}</h2><div class="chapter-date"><span>{chapter.date}</span><small>SEP / 2026</small></div></div></header>
+  {chapter.id==='steam-offensive'&&<figure class="review-exhibit" aria-label={`${snapshot.total.toLocaleString('en-US')} recent reviews, ${snapshot.positivePercent}% positive, recorded 25 September 2026`}><figcaption><span class="eyebrow">RECORDED STEAM SNAPSHOT</span><time datetime={snapshot.date}>25 SEPTEMBER 2026</time></figcaption><div class="review-numbers"><div><strong>{snapshot.total.toLocaleString('en-US')}</strong><span>RECENT REVIEWS</span></div><div><strong>{snapshot.positivePercent}<span>%</span></strong><span>POSITIVE</span></div></div><div class="review-bar" aria-hidden="true"><span style={`width:${snapshot.positivePercent}%`}></span></div><p>{snapshot.classification}<small>Snapshot reported in the supplied account. This is not a live review count.</small></p></figure>}
+  <div class="chapter-body">
+  {chapter.blocks.map(block=>{
+    const related=people.filter(p=>p.chapter===chapter.id&&p.block===block.index);
+    const portraits=related.filter(p=>p.image);
+    const isDemand=chapter.id==='mobilization'&&block.token.type==='list';
+    const bigQuote=block.token.type==='blockquote';
+    return <div class:list={['narrative-row',isDemand?'wide-row':'',bigQuote?'quote-row':'',chapter.id==='origins'&&block.index===3?'central-issue':'']} id={block.id}>
+      <div class="anchor-group" aria-hidden="true">{block.aliases.map(id=><span id={id}></span>)}{related.map(p=><span id={`person-${p.id}`}></span>)}</div>
+      {isDemand?<Demands blockId={block.id}/>:bigQuote?<Statement html={block.html} blockId={block.id} kind={chapter.id==='cyber-escalation'?'incident':'paradox'} caption={chapter.id==='cyber-escalation'?'Playrion support email · reported subject line':'Batya · Hearts of Iron Game Director'} />:<div class="prose"><div data-original={block.id} set:html={block.html}/><Citation chapter={chapter.id} block={block.index}/></div>}
+      {(isDemand||bigQuote)&&<Citation chapter={chapter.id} block={block.index}/>}
+      {(portraits.length>0||(chapter.id==='first-response'&&block.index===2)||(chapter.id==='international-support'&&block.index===1)||(chapter.id==='second-response'&&block.index===5)||(chapter.id==='second-response'&&block.index===8)||(chapter.id==='steam-offensive'&&block.index===3)||(chapter.id==='valve'&&block.index===1))&&<aside class:list={['context-exhibit',portraits.length>1?'portrait-cluster':'']} aria-label="Context for this passage">
+        {portraits.map(p=><Portrait imageKey={p.image}/>)}
+        {chapter.id==='first-response'&&block.index===2&&<Statement html={`<blockquote><p>${firstResponseQuote}</p></blockquote>`} id="quote-inconsistent-enforcement" date="24 SEPTEMBER 2026"/>}
+        {chapter.id==='international-support'&&block.index===1&&<Statement html={`<blockquote><p>${internationalQuote}</p></blockquote>`} id="quote-international-support" kind="community" caption="[Neolithic]To the End · developer diary"/>}
+        {chapter.id==='second-response'&&block.index===5&&<div class="margin-note blue"><span class="eyebrow">RULE 4 / POLICY SUMMARY</span><strong>A rewritten rule.</strong><p>Real photographs of political and military figures born after 1 January 1800 restricted. Official HOI4 portraits permitted, with the separate Nazi-leadership restriction described in the article.</p></div>}
+        {chapter.id==='second-response'&&block.index===8&&<div class="margin-note red"><span class="eyebrow">THE REMAINING DEMANDS</span><ul><li>Explicit apology</li><li>Moderator accountability</li><li>Historical retraction</li></ul><a href="#demands-ledger">Read the recorded outcome ↘</a></div>}
+        {chapter.id==='steam-offensive'&&block.index===3&&<div class="margin-note"><span class="provenance">INTERNATIONAL REACTION</span><p>Support and opposition across the wider Paradox community.</p></div>}
+        {chapter.id==='valve'&&block.index===1&&<div class="platform-exhibit"><span class="provenance">PLATFORM INTERVENTION</span><p>Reviews not necessarily deleted</p><span aria-hidden="true">↓</span><p>Affected period excluded from the default Review Score</p><small>Mechanism described in the supplied article.</small></div>}
+      </aside>}
+    </div>;
+  })}
+  </div>
+</section>
